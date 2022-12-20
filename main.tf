@@ -12,8 +12,8 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "ACCCG-Terraform-Labs-PF"
-
+    organization = "ACG-Terraform-Labs-PF"
+    #adding TFC
     workspaces {
       name = "demo-github-actions"
     }

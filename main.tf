@@ -13,7 +13,7 @@ terraform {
 
   backend "remote" {
     organization = "ACG-Terraform-Labs-PF"
-
+    #adding TFC!
     workspaces {
       name = "demo-github-actions"
     }
